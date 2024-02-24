@@ -21,6 +21,7 @@ int main()
     float *p3;
     double *p4;
     // pointer of type structure
+    // in c++ we can remove struct keyword. e.g. Rectangle *p5;
     struct Rectangle *p5;       // definition of structure doesn't allocate memory but declaring pointer variable of it allocates memory
     cout << sizeof(p1) << endl; // sizeof prints the size of data type in bytes
     cout << sizeof(p2) << endl;
